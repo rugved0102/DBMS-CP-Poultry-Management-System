@@ -1,0 +1,7 @@
+Storing images directly in a SQL database as binary data (BLOB - Binary Large OBjects) can be done, but it's generally not recommended for several reasons:
+
+Database Size: Storing images as BLOBs can significantly increase the size of your database, which may impact performance and storage costs.
+
+CHARACTER SET utf8mb4: This defines the character set used for encoding text data in the database. utf8mb4 is a character set that supports a wider range of characters, including emojis and characters from various languages.
+
+InnoDB : one of the default storage engine's in mysql
